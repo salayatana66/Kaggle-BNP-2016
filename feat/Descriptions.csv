@@ -1,0 +1,11 @@
+file,description,generated_by
+"imputed-A1-16-2-24.csv","All features both raw and transformed, simple imputation scheme","3-simple-impute.R"
+"imputed-A2-16-2-25.csv","All features both raw and transformed, simple imputation scheme, NAfreq too large removed","3-simple-impute.R"
+"imputed-A3-16-2-25.csv","All features only raw, simple imputation scheme","3-simple-impute.R"
+"imputed-A4-16-2-25.csv","All features only raw, simple imputation scheme, NAfreq too large removed","3-simple-impute.R"
+"imputed-B1-16-3-4.csv", "All features with transformed, numeric imputed by median", "6-impute.R"
+"imputed-B2-16-3-4.csv", "All features with transformed, numeric imputed by Random Imputation", "6-impute.R"
+"imputed-B3-16-3-6.csv", "All features with transformed, numeric imputed by MICE, not all variables converged", "6-impute.R"
+"kaggle-C1-16-3-16.csv", "Simple imputed data by Kaggle script", "9-extratree-xavier.py"
+"kaggle-C2-16-3-16.csv", "Simple imputed data by Kaggle script, Added impacted variables", "9-extratree-xavier.py"
+

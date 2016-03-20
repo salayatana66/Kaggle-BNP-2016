@@ -1,0 +1,21 @@
+file, CV, CVsd, PubLB, PrvLB, generated_by, generated_from, description
+"sub-A1-16-2-27.csv", 0.3842462, 0.003963643, 0.58240,, "4-xgb-simple-model.R", "imputed-A1-16-2-24.csv", "[max.depth = 6; eta = 0.03; booster = gbtree; subsample = 0.6; colsample_bytree = 0.6; objective = binary:logistic; nrounds = 2000; early.stop.round = 30; nthread = 4]"
+"sub-A2-16-2-27.csv", 0.4640374, 0.004042806, 0.46421,, "4-xgb-simple-model.R", "imputed-A1-16-2-24.csv", "as A1-16-2-27.csv, left var_Imp22 out"
+"sub-A3-16-2-27.csv", 0.3841362, 0.004034812, 0.58222,, "4-xgb-simple-model.R", "imputed-A3-16-2-25.csv", "as A1-16-2-27.csv"
+"sub-A4-16-2-27.csv", 0.4655516, 0.00130713, ,0.46534,, "4-xgb-simple-model.R", "imputed-A3-16-2-25.csv", "removed var_Imp22"
+"sub-A5-16-2-27.csv", 0.4674699, 0.001188121, 0.46613,, "4-xgb-simple-model.R", "imputed-A3-16-2-25.csv", "removed alls var_Imps"
+"sub-A6-16-2-27.csv", 0.4746731, 0.00202789, ,NA,NA "4-xgb-simple-model.R", "imputed-A4-16-2-25.csv", "removed var_Imp22, remove too many NAs; error because the algorithm skipped columns with many NAs"
+"sub-B1-16-3-9.csv",  0.467307, NA, 0.46235, , "8-xgb-justfor.R", "imputed-B2-16-3-4.csv", "Kaggle Script on data with features and imputation"
+"sub-B2-16-3-9.csv",  0.467422, 0.003594, 0.46425, , "8-xgb-justfor.R", "imputed-B2-16-3-4.csv", "Optimal parameters of mlr"
+"sub-B3-16-3-9.csv",  0.467422, 0.003594, 0.46264, , "8-xgb-justfor.R", "imputed-B2-16-3-4.csv", "Optimal parameters of mlr, shorter training length"
+"sub-B4-16-3-9.csv",  0.465622, 0.004242, 0.46214, , "8-xgb-justfor.R", "imputed-B3-16-3-6.csv", "Optimal parameters of mlr"
+"sub-B5-16-3-13.csv",  0.4637705, 0.004073895, 0.46121, , "8-xgb-justfor.R", "imputed-B3-16-3-6.csv", "Trained on all features"
+"sub-B5-16-3-14.csv",  0.4635296, 0.00394731, 0.46110, , "8-xgb-justfor.R", "imputed-B3-16-3-6.csv", "Trained on all features"
+"sub-C1-16-3-16.csv", 0.45496,,, "9-extratree-xavier.py", "kaggle-C1-16-3-16.csv", "plain ExtraTree Script"
+"sub-C2-16-3-16.csv", ,0.45353,,, "9-extratree-xavier.py", "kaggle-C2-16-3-16.csv", "plain ExtraTree Script; added impacted variables"
+"sub-C3-16-3-18.csv", 0.457015,0.0010578,0.45202, "9-extratree-xavier.py", "imputed-B1-16-3-4.csv", "plain ExtraTree Script"
+"sub-C4-16-3-18.csv", 0.45962,0.0015868,0.45613, "9-extratree-xavier.py", "imputed-B2-16-3-4.csv", "plain ExtraTree Script"
+"sub-C5-16-3-18.csv", 0.459884,0.0014078,0.45585, "9-extratree-xavier.py", "imputed-B3-16-3-6.csv", "plain ExtraTree Script"
+
+
+
